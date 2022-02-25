@@ -19,13 +19,16 @@ public class Exercicio3 {
         System.out.print("Digite um valor: ");
         valor1 = sc.nextInt();
         
-        System.out.print("Digite um valor: ");
+        System.out.print("Digite um outro valor: ");
         valor2 = sc.nextInt();
         
         max = Math.max(valor1, valor2);
         min = Math.min(valor1, valor2);
+        int diferenca;
+        diferenca = max - min;
         
         System.out.println("O valor máximo é " + max);
         System.out.println("O valor mínimo é " + min);
+        System.out.println("A diferença entre os dois é " + diferenca);
     }
 }
