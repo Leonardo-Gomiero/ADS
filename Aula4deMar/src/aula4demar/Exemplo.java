@@ -7,7 +7,7 @@ import java.util.Scanner;
  *
  * @author Aluno
  */
-public class Aula4deMar {
+public class Exemplo {
 
     /**
      * @param args the command line arguments
