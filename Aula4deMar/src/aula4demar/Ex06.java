@@ -18,7 +18,7 @@ public class Ex06 {
         
         int valor = sc.nextInt();
         
-        Boolean primo = true;
+        Boolean primo = true;       //Isto é o que se chama Flag. É uma variável auxiiar à programação.
         
         for(int i = 2; i <= (valor - 1); i++){
             
