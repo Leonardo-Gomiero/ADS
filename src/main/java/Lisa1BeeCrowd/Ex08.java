@@ -15,12 +15,17 @@ public class Ex08 {
         
         int v1 = sc.nextInt();
         int v2 = sc2.nextInt();
-        float hora = sc3.nextFloat();
+        double hora = sc3.nextDouble();
+        
+        String numero = String.format("%d", v1);
         
         
-        float produto = v1 * v2 * hora;
-        System.out.println("NUMBER = " + v1);
-        System.out.printf("SALARY = U$ %.2f", produto);
+        double produto =  v2 * hora;
+        
+        String produto1 = String.format("%.2f", produto);
+        
+        System.out.println("NUMBER = " + numero);
+        System.out.println("SALARY = U$ " + produto1);
         
     }
 }

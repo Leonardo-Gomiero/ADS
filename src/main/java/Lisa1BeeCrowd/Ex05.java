@@ -14,10 +14,13 @@ public class Ex05 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         
-        float v1 = sc.nextFloat();
-        float v2 = sc.nextFloat();
+        double v1 = sc.nextDouble();
+        double v2 = sc.nextDouble();
+        double produto;
         
-        float produto = (v1 + v2)/2;
-        System.out.printf("MEDIA = %.5f\n", produto);
+        produto = (((3.5*v1) + (7.5*v2))/11);
+        
+        String produto1 = String.format("%.5f", produto);
+        System.out.println("MEDIA = "+ produto1);
     }
 }

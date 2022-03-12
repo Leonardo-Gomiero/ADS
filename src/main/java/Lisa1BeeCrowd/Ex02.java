@@ -13,14 +13,14 @@ import java.util.Scanner;
 public class Ex02 {
     public static void main(String[] args) {
         
-        float n = 3.14159f;
-        float area;
+        double n = 3.14159;
+        double area;
         Scanner sc= new Scanner(System.in);
         
         System.out.println("Insira o valor do raio do círculo: ");
-        float r = sc.nextFloat();
+        double r = sc.nextDouble();
         
-        area = ((float) Math.pow((Math.round(r*100.0)/100.0), 2)) * n;
+        area = n*r*r;
         System.out.printf("A=%.4f", area);
     }
 }
